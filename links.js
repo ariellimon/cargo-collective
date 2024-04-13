@@ -1,6 +1,5 @@
 console.log("running before");
-const siteMenu = document.getElementById("site_menu");
-const links = document.querySelectorAll(".set-link a");
+const links = document.querySelectorAll("#site_menu .set-link a");
 links.forEach(element => {
   const href = element.href;
   element.setAttribute("data-tags", href);
