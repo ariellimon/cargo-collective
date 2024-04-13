@@ -6,7 +6,7 @@ button.addEventListener("click", () => {
     console.log("found links", links);
     links.forEach(element => {
       console.log("element", element);
-      const href = element.href;
+      const href = element.href.split("/").pop();
       element.setAttribute("data-tags", href);
       console.log("updated link data-tags", href);
     });
