@@ -1,4 +1,4 @@
-console.log("running before 3");
+console.log("running before 4");
 const button = document.getElementById("site_menu_button");
 button.addEventListener("click", () => {
   setTimeout(() => {
