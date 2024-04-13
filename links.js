@@ -1,5 +1,5 @@
-console.log("running before 2");
-const button = document.getElementById("site_menu_button");;
+console.log("running before 3");
+const button = document.getElementById("site_menu_button");
 button.addEventListener("click", () => {
   setTimeout(() => {
     const links = document.querySelectorAll("#site_menu .set-link a");
